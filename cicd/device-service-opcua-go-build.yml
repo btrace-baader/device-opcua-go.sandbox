@@ -19,7 +19,6 @@ resources:
 variables:
   - template: vars/variables.yml@azure-pipeline-template
   - template: vars/variables.yml
-  - group: SonarcloudVariables
 
 stages:
   - stage: Build
